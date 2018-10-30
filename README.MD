@@ -1,6 +1,6 @@
-# Angular 4 / 5 / 6 Social Login
+# Angular 5  Social Login
 
-Social login and authentication module for Angular 4 / 5 / 6. Supports authentication with **Google** and **Facebook**. Can be extended to other providers also.
+Social login and authentication module for Angular  5. Supports authentication with **Google** and **Facebook**. Can be extended to other providers also.
 
 Check out the [demo](https://abacritt.github.io/angularx-social-login/).
 
@@ -9,7 +9,7 @@ Check out the [demo](https://abacritt.github.io/angularx-social-login/).
 ### Install via npm 
 
 ```sh
-npm install --save angularx-social-login
+npm install --save @dragoncoders/angularx-social-login
 ```
 
 ### Import the module
@@ -17,8 +17,8 @@ npm install --save angularx-social-login
 In your `AppModule`, import the `SocialLoginModule`
 
 ```javascript
-import { SocialLoginModule, AuthServiceConfig } from "angularx-social-login";
-import { GoogleLoginProvider, FacebookLoginProvider, LinkedInLoginProvider} from "angularx-social-login";
+import { SocialLoginModule, AuthServiceConfig } from "@dragoncoders/angularx-social-login";
+import { GoogleLoginProvider, FacebookLoginProvider, LinkedInLoginProvider} from "@dragoncoders/angularx-social-login";
 
 
 let config = new AuthServiceConfig([
@@ -63,8 +63,8 @@ export class AppModule { }
 
 ```javascript
 
-import { AuthService } from "angularx-social-login";
-import { FacebookLoginProvider, GoogleLoginProvider, LinkedInLoginProvider } from "angularx-social-login";
+import { AuthService } from "@dragoncoders/angularx-social-login";
+import { FacebookLoginProvider, GoogleLoginProvider, LinkedInLoginProvider } from "@dragoncoders/angularx-social-login";
 
 
 @Component({
@@ -100,8 +100,8 @@ export class DemoComponent implements OnInit {
 You are notified when user logs in or logs out. You receive a `SocialUser` object when the user logs in and a `null` when the user logs out. `SocialUser` object contains basic user information such as name, email, photo URL, etc.
 
 ```javascript
-import { AuthService } from "angularx-social-login";
-import { SocialUser } from "angularx-social-login";
+import { AuthService } from "@dragoncoders/angularx-social-login";
+import { SocialUser } from "@dragoncoders/angularx-social-login";
 
 @Component({
   selector: 'app-demo',
