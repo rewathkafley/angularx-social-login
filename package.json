@@ -1,6 +1,6 @@
 {
-  "name": "angularx-social-login",
-  "version": "1.2.3",
+  "name": "@dragoncoders/angularx-social-login",
+  "version": "1.2.4",
   "description": "Social login and authentication module for Angular 4 / 5. Supports authentication with Google and Facebook. Can be extended to other providers also.",
   "repository": {
     "type": "git",
@@ -55,17 +55,17 @@
     "release": "standard-version"
   },
   "peerDependencies": {
-    "@angular/core": "^6.0.0",
-    "rxjs": "^6.1.0",
-    "zone.js": "^0.8.4"
+    "@angular/core": "^5.0.0",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.19"
   },
   "devDependencies": {
-    "@angular/common": "^6.0.3",
-    "@angular/compiler": "^6.0.3",
-    "@angular/compiler-cli": "^6.0.3",
-    "@angular/core": "^6.0.3",
-    "@angular/platform-browser": "^6.0.3",
-    "@angular/platform-browser-dynamic": "^6.0.3",
+    "@angular/common": "^5.2.11",
+    "@angular/compiler": "^5.2.11",
+    "@angular/compiler-cli": "^5.2.11",
+    "@angular/core": "^5.2.11",
+    "@angular/platform-browser": "^5.2.11",
+    "@angular/platform-browser-dynamic": "^5.2.11",
     "@types/jasmine": "2.8.8",
     "@types/node": "^10.3.1",
     "camelcase": "^5.0.0",
@@ -79,13 +79,13 @@
     "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-sourcemaps": "^0.4.1",
     "rollup-plugin-uglify": "^4.0.0",
-    "rxjs": "^6.2.0",
+    "rxjs": "^5.5.12",
     "standard-version": "^4.4.0",
     "systemjs": "^0.21.4",
     "tslint": "^5.10.0",
-    "zone.js": "^0.8.26"
+    "zone.js": "^0.8.19"
   },
   "dependencies": {
-    "typescript": "^2.7.2"
+    "typescript": "~2.5.3"
   }
 }
